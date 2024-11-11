@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logg inn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Logg inn</h1>
+        <form action="/profile.html" class="mt-4">
+            <div class="mb-3">
+                <label for="username" class="form-label">Brukernavn</label>
+                <input type="text" class="form-control" id="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Passord</label>
+                <input type="password" class="form-control" id="password" minlength="8" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Logg inn</button>
+        </form>
+    </div>
+</body>
+
+</html>

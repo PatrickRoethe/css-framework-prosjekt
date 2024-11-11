@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Feed</h1>
+
+        <!-- Søkefelt og sortering -->
+        <div class="d-flex justify-content-between mb-3">
+            <input type="text" class="form-control" placeholder="Søk innlegg...">
+            <select class="form-select ms-3">
+                <option>Sorter etter...</option>
+                <option>Nyeste</option>
+                <option>Eldste</option>
+            </select>
+        </div>
+
+        <!-- Nytt innlegg -->
+        <div class="mb-4">
+            <form>
+                <div class="mb-3">
+                    <textarea class="form-control" placeholder="Skriv et nytt innlegg..." rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Post</button>
+            </form>
+        </div>
+
+        <!-- Liste over innlegg -->
+        <div class="post mb-3 p-3 border">
+            <h5>Brukernavn</h5>
+            <p>Dette er et eksempelinnlegg. Det kan inneholde tekst og bilder.</p>
+        </div>
+        <div class="post mb-3 p-3 border">
+            <h5>Brukernavn</h5>
+            <p>Dette er et annet eksempelinnlegg.</p>
+        </div>
+    </div>
+</body>
+
+</html>
