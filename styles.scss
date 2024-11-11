@@ -1,1 +1,56 @@
 @import './node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// Tilpasset styling
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+footer {
+  background-color: #f1f1f1;
+  color: #555;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  padding: 15px;
+}
+
+button, .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+
+  &:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+}
+
+// Mobilmeny styling
+#navbar-menu {
+  display: none; // Skjul menyen som standard på mobil
+}
+
+#navbar-menu.show {
+  display: block; // Vis menyen når "show"-klassen er tilstede
+}
+
+@media (min-width: 992px) { // Desktop-visning
+  #navbar-menu {
+    display: flex; // Vis menyen horisontalt på større skjermer
+  }
+}
