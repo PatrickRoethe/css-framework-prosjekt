@@ -38,5 +38,6 @@ https://patrickroethe.github.io/css-framework-prosjekt/homepage.html
 - **Implement interaction with API**: After authentication, the app can be extended to interact with an API for creating posts, deleting posts, and other interactive functions a commercial social app would require.
 - **Improved design**: Explore opportunities to enhance the user interface (UI), such as adding animations, better layouts, and more interactive elements. Dive deeper into colors, and improve overall styling.
 - **Add functionality**: To search, sort, create, follow and all functions that a commercial social app would require.
+- **Add nightmode**: Add a nightmode button for the page.
 
 
