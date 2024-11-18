@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #007bff;">
         <div class="container">
             <a class="navbar-brand" href="homepage.html">SosialApp</a>
             <button id="menu-toggle" class="navbar-toggler" type="button" aria-label="Toggle navigation">
@@ -24,17 +24,18 @@
                         <a class="nav-link" href="profile.html">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Logg ut</a>
+                        <a class="nav-link" href="index.html">Logg in</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <div class="container mt-5">
         <h1 class="text-center">Feed</h1>
 
-        <!-- Søkefelt og sortering -->
+        <!-- Search field and sorting -->
         <div class="d-flex justify-content-between mb-3">
             <input type="text" class="form-control" placeholder="Søk innlegg...">
             <select class="form-select ms-3">
@@ -44,7 +45,7 @@
             </select>
         </div>
 
-        <!-- Nytt innlegg -->
+        <!-- New Post -->
         <div class="mb-4">
             <form>
                 <div class="mb-3">
@@ -54,7 +55,8 @@
             </form>
         </div>
 
-        <!-- Liste over innlegg -->
+        <!-- My posts-->
+        <h4>My posts</h4>
         <div class="post mb-3 p-3 border">
             <h5>Brukernavn</h5>
             <p>Dette er et eksempelinnlegg. Det kan inneholde tekst og bilder.</p>
@@ -63,13 +65,24 @@
             <h5>Brukernavn</h5>
             <p>Dette er et annet eksempelinnlegg.</p>
         </div>
+
+        <!-- Others post -->
+        <h4>Other users posts</h4>
+        <div class="post mb-3 p-3 border">
+            <h5>Bruker 2</h5>
+            <p>Dette er et innlegg fra en annen bruker. Her kan det være tekst og bilder også.</p>
+        </div>
+        <div class="post mb-3 p-3 border">
+            <h5>Bruker 3</h5>
+            <p>En annen bruker delte dette innlegget.</p>
+        </div>
+
     </div>
-    <footer class="bg-light text-center text-lg-start mt-5">
+    <footer class="text-center text-lg-start mt-5">
         <div class="container p-4">
-            <p class="text-center">© 2024 SosialApp. Alle rettigheter reservert.</p>
+            <p class="text-center">© 2024 SosialApp.</p>
         </div>
     </footer>
-
 
 
     <script src="menu.js"></script>

@@ -23689,23 +23689,35 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+body > .container {
+  flex: 1;
 }
 
 .navbar {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e0e0e0;
+  background-color: #007bff !important;
+  color: white;
 }
 
 footer {
-  background-color: #f1f1f1;
-  color: #555;
+  background-color: #007bff !important;
+  color: white;
   padding: 10px 0;
   text-align: center;
+  margin-top: auto;
 }
 
-h1, .h1 {
+h1, .h1, h4, .h4 {
   font-family: Arial, sans-serif;
   font-weight: 700;
   color: #333;
@@ -23726,6 +23738,28 @@ button:hover, .btn-primary:hover {
   border-color: #0056b3;
 }
 
+.post {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.post h5, .post .h5 {
+  font-weight: 600;
+}
+
+.d-flex {
+  justify-content: space-between;
+}
+
+h4, .h4 {
+  color: #007bff; /* Farge for seksjonstittel */
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
 #navbar-menu {
   display: none;
 }
@@ -23739,7 +23773,6 @@ button:hover, .btn-primary:hover {
     display: flex;
   }
 }
-/* Profilbilde styling */
 .profile-image {
   width: 150px;
   height: 150px;

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #007bff;">
         <div class="container">
             <a class="navbar-brand" href="homepage.html">SosialApp</a>
             <button id="menu-toggle" class="navbar-toggler" type="button" aria-label="Toggle navigation">
@@ -24,17 +24,18 @@
                         <a class="nav-link" href="profile.html">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Logg ut</a>
+                        <a class="nav-link" href="index.html">Logg in</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <div class="container mt-5">
         <h1 class="text-center">Profil</h1>
 
-        <!-- Profilinformasjon -->
+        <!-- Profile info -->
         <div class="text-center mt-4">
             <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y" class="profile-image"
                 alt="Profile Image">
@@ -44,7 +45,7 @@
             <button class="btn btn-outline-primary mt-2">Følg</button>
         </div>
 
-        <!-- Følgere og følgetall -->
+        <!-- Followers/following -->
         <div class="d-flex justify-content-around mt-4">
             <div>
                 <h5>Følgere</h5>
@@ -56,7 +57,8 @@
             </div>
         </div>
 
-        <!-- Liste over brukerens innlegg -->
+        <!-- List over the users posts -->
+        <h4>Mine Innlegg</h4>
         <div class="post mt-4 p-3 border">
             <h5>Brukernavn</h5>
             <p>Dette er et innlegg fra brukeren.</p>
@@ -66,11 +68,12 @@
             <p>Enda et innlegg fra brukeren.</p>
         </div>
     </div>
-    <footer class="bg-light text-center text-lg-start mt-5">
+    <footer class="text-center text-lg-start mt-5">
         <div class="container p-4">
-            <p class="text-center">© 2024 SosialApp. Alle rettigheter reservert.</p>
+            <p class="text-center">© 2024 SosialApp. </p>
         </div>
     </footer>
+
     <script src="menu.js"></script>
 </body>
 
