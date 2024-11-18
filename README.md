@@ -37,5 +37,6 @@ https://patrickroethe.github.io/css-framework-prosjekt/homepage.html
 - **Implement proper authentication**: Current authentication is static (only front-end login with min-length 8 on password). Implement full API-based authentication for more security and functionality.
 - **Implement interaction with API**: After authentication, the app can be extended to interact with an API for creating posts, deleting posts, and other interactive functions a commercial social app would require.
 - **Improved design**: Explore opportunities to enhance the user interface (UI), such as adding animations, better layouts, and more interactive elements. Dive deeper into colors, and improve overall styling.
+- **Add functionality**: To search, sort, create, follow and all functions that a commercial social app would require.
 
 
