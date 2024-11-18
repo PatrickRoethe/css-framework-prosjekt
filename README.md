@@ -1,7 +1,7 @@
 # README - SosialApp
 
 ## Overview
-SosialApp is a simple social media platform where users can log in, view posts from other users, and explore their profile. The app consists of three main pages: authentication (login), feed, and user profile. While there is a form for creating posts, no functionality exists to store or retrieve them since there is no backend or API integration.
+SosialApp is a simple social media platform where users can log in, view posts from other users, and explore their profile. The app consists of three main pages: authentication (login), feed, and user profile. While there is a form for creating posts, no functionality exists to store or retrieve data since there is no backend or API integration. Same goes for other functions, and pages like profile/feed.
 
 ## Technologies Used
 - **Bootstrap**: A framework for responsive web design and UI components.
@@ -11,7 +11,7 @@ SosialApp is a simple social media platform where users can log in, view posts f
 
 ## Features
 - **Login**: Users can log in through the authentication page with a valid username and password (minimum 8 characters).
-- **Feed**: A list of example posts from the user and other users, with an option to sort posts by newest or oldest.
+- **Feed**: A list of example posts from the user and other users, with an option to sort posts by newest or oldest ( non-functional)
 - **Profile**: View the user's profile, including profile image, username, follower count, and a follow button (currently non-functional).
 
 ## Installation
