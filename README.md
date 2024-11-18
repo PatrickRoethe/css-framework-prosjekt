@@ -19,10 +19,13 @@ Follow these steps to get the project up and running locally:
 
 1. Clone the project to your local machine:
   - git clone https://github.com/PatrickRoethe/css-framework-prosjekt.git
+
 2. Install the necessary dependencies:
 - npm install
+
 3.Run the development server (with live updates):
 - npm run watch
+
 4.Deploy the app (if needed):
 - npm run deploy
 
